@@ -13,3 +13,5 @@ def calc(request):
     if(data['operation']=="+"):
         result = data['a'] + data['b']
     return HttpResponse(f"{result}")
+
+#test
